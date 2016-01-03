@@ -1,0 +1,1 @@
+﻿<%@ Application Codebehind="Global.asax.cs" Inherits="SFS.Salao.UI.MVC.MvcApplication" Language="C#" %>
