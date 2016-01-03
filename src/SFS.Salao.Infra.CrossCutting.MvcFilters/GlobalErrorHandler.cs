@@ -15,7 +15,7 @@ namespace SFS.Salao.Infra.CrossCutting.MvcFilters
             if (filterContext.Exception != null)
             {
                 // CRIAR MÉTODO NA CONTROLLER PARA GRAVAR LOG OU GRAVAR NO BANCO
-                //filterContext.Controller.TempData["ErrorMessage"] = filterContext.Exception.Message;
+                // filterContext.Controller.TempData["ErrorMessage"] = filterContext.Exception.Message;
             }
 
             base.OnActionExecuted(filterContext);
